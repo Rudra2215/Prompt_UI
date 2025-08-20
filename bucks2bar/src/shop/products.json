@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Cappuccino",
+    "description": "Rich espresso with steamed milk and foam.",
+    "price": 3.99,
+    "offer": true,
+    "offerPrice": 2.99,
+    "approved": true,
+    "image": "https://lorcoffee.com/cdn/shop/articles/Cappuccino-exc.jpg?v=1684870907"
+  },
+  {
+    "id": 2,
+    "name": "Latte",
+    "description": "Espresso with steamed milk and light foam.",
+    "price": 4.49,
+    "offer": true,
+    "offerPrice": 3.49,
+    "approved": true,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEzen5N3wvWNph_2_zzQQGKqNhLvRZCaweBg&s"
+  },
+  {
+    "id": 3,
+    "name": "Mocha",
+    "description": "Espresso with chocolate, milk, and whipped cream.",
+    "price": 4.99,
+    "offer": false,
+    "offerPrice": 0,
+    "approved": true,
+    "image": "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Coffee",
+    "description": "Coffee, hot milk, and whipped cream.",
+    "price": 2.99,
+    "offer": true,
+    "offerPrice": 2.49,
+    "approved": true,
+    "image": "https://etimg.etb2bimg.com/photo/113047605.cms"
+  },
+  {
+    "id": 5,
+    "name": "Americano",
+    "description": "Espresso diluted with hot water, smooth flavor.",
+    "price": 3.49,
+    "offer": false,
+    "offerPrice": 0,
+    "approved": true,
+    "image": "https://mocktail.net/wp-content/uploads/2022/03/homemade-Iced-Americano-recipe_1ig.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Espresso",
+    "description": "Strong black coffee, served hot.",
+    "price": 2.49,
+    "offer": true,
+    "offerPrice": 1.99,
+    "approved": true,
+    "image": "https://www.sharmispassions.com/wp-content/uploads/2012/07/espresso-coffee-recipe04-500x500.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Cortado",
+    "description": "Espresso cut with a small amount of warm milk.",
+    "price": 3.99,
+    "offer": false,
+    "offerPrice": 0,
+    "approved": true,
+    "image": "https://cafebarista.ca/cdn/shop/articles/comment-faire-un-cortado-899611.png?v=1737725024"
+  },
+  {
+    "id": 8,
+    "name": "Flat White",
+    "description": "Velvety steamed milk over espresso.",
+    "price": 4.29,
+    "offer": true,
+    "offerPrice": 3.79,
+    "approved": true,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlhDndDuh0lvTBBzEOzlCi7uC6VTVnJtyzYg&s"
+  },
+  {
+    "id": 9,
+    "name": "Iced Coffee",
+    "description": "Cold coffee with ice and milk.",
+    "price": 3.79,
+    "offer": false,
+    "offerPrice": 0,
+    "approved": true,
+    "image": "https://cdn.loveandlemons.com/wp-content/uploads/2025/05/how-to-make-iced-coffee-at-home.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Macchiato",
+    "description": "Espresso with a dash of frothy milk.",
+    "price": 4.19,
+    "offer": true,
+    "offerPrice": 3.59,
+    "approved": true,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa8ljATJc36edoMEZefo4HjitJv5ST5-Ll7A&s"
+  }
+]

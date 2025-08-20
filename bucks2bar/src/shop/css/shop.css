@@ -1,0 +1,155 @@
+/* =================== General Styling =================== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* =================== Navbar =================== */
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+.navbar .nav-link {
+  margin: 0 8px;
+  font-weight: 500;
+}
+.navbar .nav-link:hover {
+  color: #ffcc00 !important;
+}
+
+/* =================== Hero Section =================== */
+.hero-section {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+              url('https://source.unsplash.com/1600x600/?coffee,shop') no-repeat center center/cover;
+  height: 20vh; /* reduced height for a more compact look */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 15px;
+}
+
+.hero-section h1 {
+  font-size: 2rem; /* slightly smaller for compactness */
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 1rem; /* smaller for compact look */
+  margin: 0;
+}
+
+
+/* =================== Offers =================== */
+.offers-section {
+  background-color: #fff;
+  padding: 50px 0;
+}
+.offer-card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+}
+.offer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* =================== Products =================== */
+#productList .card,
+#offerProducts .card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  background-color: #fff;
+}
+#productList .card:hover,
+#offerProducts .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+#productList img,
+#offerProducts img {
+  max-height: 180px;
+  object-fit: cover;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+  height: 45px;
+  overflow: hidden;
+}
+
+.price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #2e7d32;
+}
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  margin-left: 8px;
+}
+
+/* Offer Badge */
+.offer-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff3d00;
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* =================== Login Section =================== */
+#loginSection .card {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* =================== Admin Section =================== */
+#adminSection .card {
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#adminSection .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.1);
+}
+
+/* =================== Responsive =================== */
+@media(max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  .hero-section p {
+    font-size: 1rem;
+  }
+}

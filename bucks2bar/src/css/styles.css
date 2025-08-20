@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a2cbf4;
+    margin: 0;
+    padding: 0;
+    color: #343a40;
+}
+h1{
+    color: #252840c9;
+}
+
+h2, h3 {
+    color: #343a40;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode h1 {
+    color: #dde3e8;
+}
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode label,
+body.dark-mode .input-group-text,
+body.dark-mode .form-text {
+    color: #000000;
+}
+
+body.dark-mode .container,
+body.dark-mode .input-group,
+body.dark-mode .form-control {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border-color: #444;
+}
+
+body.dark-mode .form-control::placeholder {
+    color: #aaa;
+}
+
+body.dark-mode .navbar {
+    background-color: #222 !important;
+}
+
+body.dark-mode .nav-link {
+    color: #bbb !important;
+}
+
+body.dark-mode .nav-link.active {
+    color: #fff !important;
+    background-color: #333 !important;
+}
+
+body.dark-mode .btn-custom,
+body.dark-mode .btn-primary {
+    background-color: #0056b3;
+    border-color: #004080;
+    color: white;
+}
+
+body.dark-mode .btn-custom:hover,
+body.dark-mode .btn-primary:hover {
+    background-color: #003d80;
+    border-color: #00264d;
+    color: white;
+}
